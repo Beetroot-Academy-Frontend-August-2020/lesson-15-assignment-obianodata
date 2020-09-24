@@ -1,0 +1,125 @@
+
+main {
+    background:rgb(192, 192, 192);
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 60px 90px;
+    font-size: 16px;
+
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+   
+}
+
+
+.nav1{
+
+    flex: 0 1 40%;
+background-color: #fff;
+
+}
+
+.nav1__list{
+
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+
+}
+.nav2{
+
+    flex: 0 1 40%;
+background-color:rgb(21, 21, 31);
+padding: 5px;
+color: #fff;
+}
+
+.nav2__list{
+
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+
+}
+.hotel{
+display: flex;
+
+justify-content: space-between;
+align-content: center;
+
+}
+
+.hotel__map-and-price{
+  
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+padding: 15px;
+
+}
+.offer{
+padding: 15px;
+display: contents;
+flex-direction: row;
+align-content: space-between;
+border-radius: 5px;
+}
+
+.hotel_offer-button{
+    
+background-color: rgb(211, 35, 35);
+   
+}
+    
+.section{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.package{
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-content: space-between;
+}
+.activities{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: baseline;
+list-style: none;
+
+}
+
+.activities__offer{
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+
+.activitie__in-the-hotel{
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+.activitie__for-promo{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px; 
+}
